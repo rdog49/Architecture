@@ -160,7 +160,35 @@ button{
 /*header styles end*/
 
 /*services styles start*/
+.services{
+    background-color: #171717;
+    color: #f5f5f5;
+}
 
+.services__list{
+    border-top: 1px solid #f5f5f5;
+}
+
+.services__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 24px 0;
+    border-bottom: 1px solid #f5f5f5;
+    padding-right: 44px;
+}
+
+.services__item-title{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.services__item-text{
+    max-width: 800px;
+    width: 100%;
+}
 /*services styles end*/
 
 /*adaptive styles start*/
