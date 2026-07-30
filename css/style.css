@@ -23,20 +23,36 @@ a{
     text-decoration: none;
 }
 
+.ul{
+    list-style: none;
+}
+
 button{
     background-color: transparent;
     padding: 0;
     border: none;
-}
-/*main preferences end*/
 
-/*header styles start*/
+}
 .container{
     max-width: 1740px;
     padding: 0 10px;
     margin: 0 auto;
 }
 
+.section-box{
+    padding: 150px 0;
+}
+
+.section__title{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 1.16;
+    margin-bottom: 55px;
+}
+/*main preferences end*/
+
+/*header styles start*/
 .header{
     background-image: url('../images/header-bg.jpg');
     background-image: image-set(
@@ -141,7 +157,41 @@ button{
     padding: 20px 49px;
     background-color: #f5f5f5;
 }
+/*header styles end*/
 
+/*services styles start*/
+.services{
+    background-color: #171717;
+    color: #f5f5f5;
+}
+
+.services__list{
+    border-top: 1px solid #f5f5f5;
+}
+
+.services__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 24px 0;
+    border-bottom: 1px solid #f5f5f5;
+    padding-right: 44px;
+}
+
+.services__item-title{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.services__item-text{
+    max-width: 800px;
+    width: 100%;
+}
+/*services styles end*/
+
+/*adaptive styles start*/
 @media (max-width: 1300px) {
     .menu__btn{
         display: flex;
@@ -160,6 +210,10 @@ button{
     .menu__list.active{
         transform: translateY(0);
     }
+    .services__item{
+        display: block;
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 740px){
@@ -169,6 +223,19 @@ button{
     .header__title{
         padding-top: 75px;
         font-size: 64px;
+    }
+    .section-box{
+        padding: 50px 0;
+    }
+    .section__title{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .services__item{
+        padding: 10px 0;
+    }
+    .services__item-title{
+        font-size: 20px;
     }
 }
 
@@ -181,7 +248,7 @@ button{
     }
     .header__title{
         padding-top: 50px;
-        font-size: 48px;
+        font-size: 44px;
     }
     .header__text{
         font-size: 22px;
@@ -191,4 +258,5 @@ button{
         padding: 16px 49px;
     }
 }
-/*header styles end*/
+/*adaptive styles end*/
+
