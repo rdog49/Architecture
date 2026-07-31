@@ -202,7 +202,30 @@ button{
     margin-bottom: 40px;
 }
 .projects__item-title{
-    
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1.16;
+    margin-bottom: 10px;
+}
+.project__item-desc{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.16;
+    margin-bottom: 30px;
+}
+.project__item-text{
+    margin-bottom: 30px;
+}
+.projects__item-link{
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid #171717;
+    padding: 20px 105px;
+    line-height: 1.1;
+    font-size: 18px;
+    font-weight: 300;
 }
 /*projects styles end*/
 
