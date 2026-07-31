@@ -192,7 +192,18 @@ button{
 /*services styles end*/
 
 /*projects styles start*/
-
+.projects__item{
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    max-width: 560px;
+}
+.projects__item img{
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.projects__item-title{
+    
+}
 /*projects styles end*/
 
 /*adaptive styles start*/
