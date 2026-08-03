@@ -8,15 +8,11 @@ menuBtn.addEventListener('click', () => {
 
 const swiper = new Swiper('.projects__slider', {
   // Optional parameters
-  slidesPerView: 1,
+  slidesPerView: 1, spaceBetween: 20,
   loop: true,
 
    breakpoints: {
-          640: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-          },
-          768: {
+          650: {
             slidesPerView: 2,
           },
           1024: {
@@ -26,7 +22,7 @@ const swiper = new Swiper('.projects__slider', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.projects__arrow-next',
+    prevEl: '.projects__arrow-prev',
   },
 });
