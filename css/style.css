@@ -291,8 +291,27 @@ button{
     .services__item-title{
         font-size: 20px;
     }
+    .projects__item{
+        padding: 10px;
+    }
+    .projects__item img{
+        margin-bottom: 20px;
+    }
+    .project__item-desc{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .projects__item-title{
+        font-size: 24px;
+    }
+    .project__item-text{
+        margin-bottom: 15px;
+    }
+    .projects__item-link{
+        padding: 16px 100px;
+        font-size: 16px;
+    }
 }
-
 @media (max-width: 540px){
     .header__phone span{
         display: none;
