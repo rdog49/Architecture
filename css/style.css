@@ -16,6 +16,7 @@ body{
     line-height: 1.5;
     font-weight: 400;
     color: #2b2b2b;
+    overflow-x: hidden;
 }
 
 a{
@@ -191,6 +192,59 @@ button{
 }
 /*services styles end*/
 
+/*projects styles start*/
+.projects__item{
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    max-width: 560px;
+}
+.projects__slider{
+    padding-bottom: 50px;
+    overflow: visible;
+}
+.projects__item img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.projects__item-title{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1.16;
+    margin-bottom: 10px;
+}
+.project__item-desc{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.16;
+    margin-bottom: 30px;
+}
+.project__item-text{
+    margin-bottom: 30px;
+}
+.projects__item-link{
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid #171717;
+    padding: 20px 105px;
+    line-height: 1.1;
+    font-size: 18px;
+    font-weight: 300;
+}
+.projects__arrow{
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+}
+.projects__arrow-prev{
+   transform: translateX(-75px);
+}
+.projects__arrow-next{
+   transform: translateX(15px);
+}
+/*projects styles end*/
+
 /*adaptive styles start*/
 @media (max-width: 1300px) {
     .menu__btn{
@@ -237,8 +291,27 @@ button{
     .services__item-title{
         font-size: 20px;
     }
+    .projects__item{
+        padding: 10px;
+    }
+    .projects__item img{
+        margin-bottom: 20px;
+    }
+    .project__item-desc{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .projects__item-title{
+        font-size: 24px;
+    }
+    .project__item-text{
+        margin-bottom: 15px;
+    }
+    .projects__item-link{
+        padding: 16px 100px;
+        font-size: 16px;
+    }
 }
-
 @media (max-width: 540px){
     .header__phone span{
         display: none;

@@ -4,3 +4,25 @@ const menu = document.querySelector('.menu__list');
 menuBtn.addEventListener('click', () => {
     menu.classList.toggle('active')
 });
+
+
+const swiper = new Swiper('.projects__slider', {
+  // Optional parameters
+  slidesPerView: 1, spaceBetween: 20,
+  loop: true,
+
+   breakpoints: {
+          650: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.projects__arrow-next',
+    prevEl: '.projects__arrow-prev',
+  },
+});
