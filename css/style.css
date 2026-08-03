@@ -245,12 +245,15 @@ button{
 }
 /*projects styles end*/
 
+/*steps styles start*/
+
+/*steps styles end*/
+
 /*adaptive styles start*/
 @media (max-width: 1300px) {
     .menu__btn{
         display: flex;
     }
-    
     .menu__list{
         position: absolute;
         inset: 0;
@@ -312,6 +315,7 @@ button{
         font-size: 16px;
     }
 }
+
 @media (max-width: 540px){
     .header__phone span{
         display: none;
