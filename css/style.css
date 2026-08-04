@@ -396,6 +396,18 @@ button{
 }
 /*catalog styles end*/
 
+/*request styles start*/
+.request{
+    padding-bottom: 150px;
+}
+.request__inner{
+    background-image: url('../images/request-bg.jpg');   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/*request styles end*/
+
 /*adaptive styles start*/
 @media (max-width: 1300px) {
     .menu__btn{
@@ -492,6 +504,9 @@ button{
     .gallery{
         grid-template-columns: repeat(2, 1fr);
     }
+    .request{
+    padding-bottom: 50px;
+    }   
 }
 
 @media (max-width: 540px){
