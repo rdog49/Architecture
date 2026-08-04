@@ -310,6 +310,10 @@ button{
 }
 /*steps styles end*/
 
+/*catalog styles start*/
+
+/*catalog styles end*/
+
 /*adaptive styles start*/
 @media (max-width: 1300px) {
     .menu__btn{
