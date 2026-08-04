@@ -443,6 +443,10 @@ button{
 }
 /*request styles end*/
 
+/*footer styles start*/
+
+/*footer styles end*/
+
 /*adaptive styles start*/
 @media (max-width: 1300px) {
     .menu__btn{
