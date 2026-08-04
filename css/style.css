@@ -302,12 +302,11 @@ button{
     padding-top: 6px;
     margin-bottom: 12px;
 }
-.steps__item-text{
-
-}
 .steps__img img{
     width: 100%;
     display: block;
+    height: 100%;
+    object-fit: cover;
 }
 /*steps styles end*/
 
@@ -332,6 +331,12 @@ button{
     .services__item{
         display: block;
         padding-right: 0;
+    }
+    .steps{
+        display: block;
+    }
+    .steps__list{
+        padding-bottom: 40px;
     }
 }
 
@@ -376,6 +381,9 @@ button{
         padding: 16px 100px;
         font-size: 16px;
     }
+    .steps{
+        padding: 50px 0;
+    }
 }
 
 @media (max-width: 540px){
@@ -395,6 +403,26 @@ button{
     .header__btn{
         font-size: 16px;
         padding: 16px 49px;
+    }
+    .steps__item::before{
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .steps__item::after{
+        left: 10px;
+        top: 28px;
+        bottom: 8px;
+    }
+    .steps__item{
+        padding-left: 37px;
+        padding-bottom: 20px;
+    }
+    .steps__item-title{
+        font-size: 22px;
+        padding-top: 0px;
+        margin-bottom: 5px;
+        margin-top: -1px;
     }
 }
 /*adaptive styles end*/
