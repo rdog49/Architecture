@@ -311,7 +311,20 @@ button{
 /*steps styles end*/
 
 /*catalog styles start*/
-
+.catalog__title{
+    max-width: 556px;
+}
+.catalog__content{
+   display: flex;
+   gap: 50px;
+   align-items: center;
+   margin-bottom: 150px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
 /*catalog styles end*/
 
 /*adaptive styles start*/
