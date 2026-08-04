@@ -250,6 +250,7 @@ button{
     padding: 60px 0 100px;
     background-color: #171717;
     color: #f5f5f5;
+    display: flex;
 }
 .steps__title{
     max-width: 562px;
@@ -303,6 +304,10 @@ button{
 }
 .steps__item-text{
 
+}
+.steps__img img{
+    width: 100%;
+    display: block;
 }
 /*steps styles end*/
 
