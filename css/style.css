@@ -31,8 +31,18 @@ a{
 button{
     background-color: transparent;
     padding: 0;
-    border: none;
-
+    border: none; 
+    font-family: inherit;
+    color: inherit;
+    display: inline-block;
+}
+.input{
+    font-family: inherit;
+    color: inherit;
+}
+.input::placeholder{
+    font-family: inherit;
+    color: inherit;
 }
 .container{
     max-width: 1740px;
@@ -324,6 +334,62 @@ button{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+}
+.catalog__form{
+    max-width: 560px;
+    width: 100%;
+}
+.catalog__form-title{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1.16;
+    margin-bottom: 20px;
+    max-width: 430px;   
+}
+.catalog__form-text{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+    max-width: 430px; 
+}
+.catalog__form-input{
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #171717;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 1.16;
+    margin-bottom: 30px;
+    width: 100%;
+    display: block;
+}
+.catalog__form-label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.16;
+    margin-bottom: 50px;
+}
+.catalog__form-checkbox{
+    width: 17px;
+    height: 17px;
+    accent-color: #171717;
+    margin: 0;
+}
+.catalog__form-btn{
+    padding: 20px 54px;
+    color: #f5f5f5;
+    background-color: #171717;
+    font-size: 18px;
+    line-height: 1.16;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 /*catalog styles end*/
 
