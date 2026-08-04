@@ -554,7 +554,7 @@ button{
         width: 100%;
     }
     .request__inner-form{
-        
+
         padding: 50px 10px;
     }
 }
@@ -623,6 +623,10 @@ button{
     .gallery{
         grid-template-columns: 1fr;
     }
+    .section__title {
+        font-size: 20px;
+    }
+
 }
 /*adaptive styles end*/
 
